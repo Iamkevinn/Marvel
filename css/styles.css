@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box; /*Para que el navegador tenga en cuenta el relleno y el borde*/   
+}
+.Beginning{
+    background: #f0141e;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.Marvel-Logo{
+    width: 50vw;
+    visibility: hidden;
+}
+.Marvel-Logo-visibility{
+    visibility: visible;
+    transition: visibility 1s ease-in-out;
+}

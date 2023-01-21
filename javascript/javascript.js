@@ -1,0 +1,1 @@
+document.querySelector('.Marvel-Logo').classList.add('Marvel-Logo-Visibility');
