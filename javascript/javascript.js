@@ -2,7 +2,6 @@
 window.addEventListener("load", function() {
     document.querySelector('.Marvel-Logo').classList.add('Opacity');
   });
-
   //Funcion para cargar una animación despues de 3500 microsegundos
 window.onload = function() {
     setTimeout(function(){
@@ -23,9 +22,11 @@ function Cronology(){
     .then(response => response.text())
     .then(data => {
         let container = document.getElementById('Section');
+        
         container.innerHTML = data;
     })
     .catch(error => console.log(error));
+
 }
 function Questions(){
     fetch('Questions.html')

@@ -1,15 +1,64 @@
 *{
     font-family: 'BentonSans Regular', sans-serif;
     box-sizing: border-box;
+    letter-spacing: 5px;
+}
+.SectionPages{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.3477766106442577) 50%, rgba(255,255,255,0) 100%);
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
 }
 .Titules{
+    text-align: center;
     letter-spacing: 20px;
-    padding: 20px 25px;
+    padding: 70px 0;
+
 }
 .Titules, .Section-Pag{
-    background-color: rgba(4, 4, 4, 0.346);
+    color: transparent;
     color: white;
 }
+
 .Titule{
-    font-size: 1.5em;
+    font-size: 2.7em;
+}
+.Gallery{
+    border: 1px solid rgba(255, 68, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#Cap{
+    width: 280px;
+    padding: 25px;
+}
+.Imgs{
+    opacity: 1;
+}
+.Imgs.OpacityImgs{
+    opacity: 1;
+    transition: opacity .5s linear;
+}
+
+img, h2, p, span{
+    border: 1px solid rgba(126, 252, 0, 0);
+}
+.Titule-Movie{
+    font-size: 25px;
+}
+.Content{
+    font-size: 18px;
+}
+.FedBack{
+    width: 65%;
+    text-align: center;
+    margin: 0 3.5%;
+    line-height: 1.4;
+}
+#DecorationC{
+    color: #3d89c7;
+    font-weight: bold;
 }
