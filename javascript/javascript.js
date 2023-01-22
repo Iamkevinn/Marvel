@@ -9,4 +9,30 @@ window.onload = function() {
         document.querySelector('.Container-Nav').classList.add('Opacity');
     }, 3250);
 };
-
+function Characters(){
+    fetch('Characters.html')
+    .then(response => response.text())
+    .then(data => {
+        let container = document.getElementById('Section');
+        container.innerHTML = data;
+    })
+    .catch(error => console.log(error));
+}
+function Cronology(){
+    fetch('Cronology.html')
+    .then(response => response.text())
+    .then(data => {
+        let container = document.getElementById('Section');
+        container.innerHTML = data;
+    })
+    .catch(error => console.log(error));
+}
+function Questions(){
+    fetch('Questions.html')
+    .then(response => response.text())
+    .then(data => {
+        let container = document.getElementById('Section');
+        container.innerHTML = data;
+    })
+    .catch(error => console.log(error));
+}
