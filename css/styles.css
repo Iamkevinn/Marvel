@@ -12,67 +12,49 @@ body{
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 100vw;
     height: 100vh;
 }
 .Marvel-Logo{
     width: 50%;
     opacity: 0;
-    position: fixed;
 }
 .Marvel-Logo.Opacity{
     opacity: 1;
-    transition: opacity 3.5s linear;
+    transition: opacity 3.2s linear;
+}
+.Container-Nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    opacity: 0;
+    margin: 0 15px;
+}
+.Container-Nav.Opacity{
+    opacity: 1;
+    transition: opacity 1s linear;
 }
 .Nav{
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    border: 1px solid rgba(0, 0, 0, 0);
-    display: flex;
+    
+    position: fixed ;
+    bottom: 10px;
+    border-radius: 25px;
+    background-color: rgba(16, 16, 16, 0.85);
 }
-.Nav.Background{
-    background: rgba(25, 25, 25, 0.434);
-}
-.Button-Menu{
-    margin-top: 35px;
-    border: 1px solid orange;
-    background: transparent;
-    cursor: pointer;
-    border: none;
+.Nav ul{
     display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    flex-direction: row;
 }
-.Container ul{
-    border: 1px solid rgba(0, 255, 55, 0);
-    height: 85.5vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.Container ul li {
-    border: 1px solid rgba(0, 0, 0, 0);
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+.Nav ul li{
+    margin: 15px 20px;
 }
 .Icons{
-    width: 50px;
-    margin: 0 0 0 15px;
+    cursor: pointer;
 }
-.Icons.Margin{
-    margin: 0 0 0 25px;
+#Icon-C{
+    margin-left: 5px;
 }
-.Section{
-    font-size: 35px;
-    margin: 0 0 0 45px;
-    display: none;
-    color: white;
-}
-.Section.Display{
-    display: inline-block;
+#Icon-Q{
+    margin-right: 5px;
 }
