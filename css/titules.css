@@ -41,11 +41,50 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 65px;
 }
 #Cap{
     width: 280px;
     padding: 25px;
+}
+#CapMarvel{
+    color: #c73a26;
+}
+#IronMan{
+    color: #be8a3f;
+}
+#Hulk{
+    color: #748456;
+}
+#Thor{
+    color: #79859f;
+}
+#IronMan3{
+    width: 150px;
+}
+#GuardiansOfGalaxy{
+    color: #2b00ff;
+}
+#IamGroot{
+    color: #af957a;
+}
+#Avengers{
+    color: #4400ff;
+}
+#AntMan{
+    color: gray;
+}
+#Spider-Man{
+    color: rgb(222, 18, 18);
+}
+#DoctorStrange{
+    color: #bbc8ff;
+}
+#BlackWidow{
+    color: black;
+}
+#BlackPanther{
+    color: rgb(5, 0, 37);
 }
 .Imgs{
     opacity: 1;
@@ -62,7 +101,7 @@ img, h2, p, span{
     font-size: 26.5px;
 }
 .FedBack{
-    width: 65.9%;
+    width: 65%;
     margin: 0 3.5%;
     line-height: 1.4;
 }
