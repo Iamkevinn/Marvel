@@ -82,6 +82,7 @@ body{
     padding: 15px 0;
 
 }
+
 .Nav-Section{
     cursor: pointer; 
 }
@@ -93,6 +94,7 @@ body{
     color: white;
     margin-left: 6px;
     margin-top: 3px;
+    font-size: 20px;
 }
 #Icon-C{
     margin-left: 5px;

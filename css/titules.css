@@ -4,9 +4,9 @@
 }
 .SectionPages{
     background: rgb(0,0,0);
-    background: -moz-linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 99%, rgba(255,255,255,0) 100%);
-    background: -webkit-linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 99%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 99%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(138deg, rgba(0,0,0,0.4738270308123249) 99%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(138deg, rgba(0,0,0,0.4738270308123249) 99%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(138deg, rgba(0,0,0,0.4738270308123249) 99%, rgba(255,255,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -41,6 +41,7 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 #Cap{
     width: 280px;
@@ -61,7 +62,7 @@ img, h2, p, span{
     font-size: 26.5px;
 }
 .FedBack{
-    width: 65%;
+    width: 65.9%;
     margin: 0 3.5%;
     line-height: 1.4;
 }
