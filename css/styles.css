@@ -1,6 +1,7 @@
 *{
     font-family: 'BentonSans Regular', sans-serif;
     box-sizing: border-box; /*Para que el navegador tenga en cuenta el relleno y el borde*/   
+    text-transform: uppercase;
 }
 body{
     background: #d40317;
@@ -14,7 +15,7 @@ body{
     height: 100vh;
 }
 .Marvel-Logo{
-    width: 53%;
+    width: 55%;
     opacity: 0;
 }
 .Marvel-Logo.Opacity{
@@ -28,32 +29,46 @@ body{
     align-content: center;
     justify-content: center;
     opacity: 0;
-    margin: 0 15px;
 }
 .Container-Nav.Opacity{
     opacity: 1;
     transition: opacity 1s linear;
 }
 .Nav{
-    
     position: fixed ;
-    bottom: 10px;
-    border-radius: 25px;
-    background-color: rgba(14, 14, 14, 0.983);
+    bottom: 0;
+    background-color: #191c1d;
+    width: 100%;
 }
 .Nav ul{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .Nav ul li{
     margin: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
-.Icons{
+.Nav-Section{
     cursor: pointer;
+}
+.Texto-Nav{
+    color: white;
+    margin-left: 6px;
+    margin-top: 3px;
 }
 #Icon-C{
     margin-left: 5px;
 }
 #Icon-Q{
     margin-right: 5px;
+}
+@media only screen and (max-width: 600px){
+    .Texto-Nav{
+        display: none;
+    }
 }

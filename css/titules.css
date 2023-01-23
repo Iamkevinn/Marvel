@@ -1,13 +1,15 @@
 *{
     font-family: 'BentonSans Regular', sans-serif;
     box-sizing: border-box;
-    letter-spacing: 5px;
 }
 .SectionPages{
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,0.3477766106442577) 50%, rgba(255,255,255,0) 100%);
-    border-top-left-radius: 80px;
-    border-top-right-radius: 80px;
+    background: -moz-linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 50%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 50%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 50%, rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
 .Titules{
     text-align: center;
@@ -21,7 +23,8 @@
 }
 
 .Titule{
-    font-size: 2.7em;
+    font-size: 1.8em;
+    letter-spacing: 15px;
 }
 .Gallery{
     border: 1px solid rgba(255, 68, 0, 0);
@@ -47,16 +50,16 @@ img, h2, p, span{
     border: 1px solid rgba(126, 252, 0, 0);
 }
 .Titule-Movie{
-    font-size: 25px;
-}
-.Content{
-    font-size: 18px;
+    font-size: 26.5px;
 }
 .FedBack{
     width: 65%;
-    text-align: center;
     margin: 0 3.5%;
     line-height: 1.4;
+}
+.Content{
+    font-size: 18px;
+    text-align: justify;
 }
 #DecorationC{
     color: #3d89c7;
