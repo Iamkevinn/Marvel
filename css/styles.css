@@ -23,8 +23,8 @@ body{
 }
 #ArrowDown{
     position: absolute;
-    bottom: 140px;
-    right: 45px;
+    bottom: 160px;
+    right: 40px;
     opacity: 0;
     animation: arrowdown 1s ease-out infinite !important;
 }
@@ -53,11 +53,11 @@ body{
 }
 #ArrowDown.Opacity{
     opacity: 1;
-    transition: opacity 8s linear;
+    transition: opacity 1s linear;
 }
 #ArrowDown.NoOpacity{
     opacity: 0;
-    transition: opacity 3s linear;
+    transition: opacity 4s linear;
 }
 .Nav{
     position: fixed ;
