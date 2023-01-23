@@ -4,9 +4,9 @@
 }
 .SectionPages{
     background: rgb(0,0,0);
-    background: -moz-linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 50%, rgba(255,255,255,0) 100%);
-    background: -webkit-linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 50%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 50%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 99%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 99%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(138deg, rgba(0,0,0,0.5382528011204482) 99%, rgba(255,255,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -15,6 +15,8 @@
     text-align: center;
     letter-spacing: 20px;
     padding: 70px 0;
+    text-transform: uppercase;
+    font-weight: bold;
 
 }
 .Titules, .Section-Pag{
@@ -24,7 +26,13 @@
 
 .Titule{
     font-size: 1.8em;
-    letter-spacing: 15px;
+}
+.Titule , .Section-Pag{
+    
+    letter-spacing: 3px;
+}
+.Section-Pag{
+    font-family: 'Nunito', sans-serif;
 }
 .Gallery{
     border: 1px solid rgba(255, 68, 0, 0);
@@ -63,5 +71,4 @@ img, h2, p, span{
 }
 #DecorationC{
     color: #3d89c7;
-    font-weight: bold;
 }

@@ -1,7 +1,6 @@
 *{
     font-family: 'BentonSans Regular', sans-serif;
     box-sizing: border-box; /*Para que el navegador tenga en cuenta el relleno y el borde*/   
-    text-transform: uppercase;
 }
 body{
     background: #d40317;
@@ -22,6 +21,24 @@ body{
     opacity: 1;
     transition: opacity 3.2s linear;
 }
+#ArrowDown{
+    position: absolute;
+    bottom: 140px;
+    right: 45px;
+    opacity: 0;
+    animation: arrowdown 1s ease-out infinite !important;
+}
+@keyframes arrowdown {
+    0% {
+        transform: translate(0px, 50px);
+    }
+    50% {
+        transform: translate(0px, 60px);
+        }
+    100% {
+        transform: translate(0px, 50px);
+    }
+}
 .Container-Nav{
     display: flex;
     flex-wrap: wrap;
@@ -33,6 +50,14 @@ body{
 .Container-Nav.Opacity{
     opacity: 1;
     transition: opacity 1s linear;
+}
+#ArrowDown.Opacity{
+    opacity: 1;
+    transition: opacity 8s linear;
+}
+#ArrowDown.NoOpacity{
+    opacity: 0;
+    transition: opacity 3s linear;
 }
 .Nav{
     position: fixed ;
@@ -46,15 +71,23 @@ body{
     justify-content: space-around;
 }
 .Nav ul li{
-    margin: 15px 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding-bottom: 6px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 100%;
+    padding: 15px 0;
+
 }
 .Nav-Section{
-    cursor: pointer;
+    cursor: pointer; 
+}
+#Cronology{
+    transition-property: background-color;
+    transition-duration: 1.5s;
 }
 .Texto-Nav{
     color: white;
@@ -67,6 +100,7 @@ body{
 #Icon-Q{
     margin-right: 5px;
 }
+
 @media only screen and (max-width: 600px){
     .Texto-Nav{
         display: none;
