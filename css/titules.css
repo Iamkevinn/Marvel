@@ -1,10 +1,10 @@
 .SectionPages{
     background: #21212148;
-
+    border-radius: 15px;
 }
 .Titules{
     text-align: center;
-    padding: 70px;
+    padding: 25px;
     text-transform: uppercase;
     font-weight: bold;
 
