@@ -1,9 +1,5 @@
 .SectionPages{
-    background: rgb(0,0,0);
-    background: -moz-linear-gradient(138deg, rgba(0,0,0,0.4738270308123249) 99%, rgba(255,255,255,0) 100%);
-    background: -webkit-linear-gradient(138deg, rgba(0,0,0,0.4738270308123249) 99%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(138deg, rgba(0,0,0,0.4738270308123249) 99%, rgba(255,255,255,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+    background: #21212148;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
