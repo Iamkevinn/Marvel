@@ -1,9 +1,9 @@
 *{
-    font-family: 'BentonSans Regular', sans-serif;
     box-sizing: border-box; /*Para que el navegador tenga en cuenta el relleno y el borde*/   
     text-decoration: none;
 }
 body{
+    font-family: 'PT Sans', sans-serif;
     background-color: #d40317;
 }
 .Beginning{

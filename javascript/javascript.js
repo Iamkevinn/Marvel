@@ -25,8 +25,7 @@ function Characters(){
     fetch('Characters.html')
     .then(response => response.text())
     .then(data => {
-        let container = document.getElementById('Section');
-        container.innerHTML = data;
+        seccion.innerHTML = data;
         ScrollSection();
     })
     .catch(error => console.log(error));
@@ -38,8 +37,7 @@ function Cronology(){
     fetch('Cronology.html')
     .then(response => response.text())
     .then(data => {
-        let container = document.getElementById('Section');
-        container.innerHTML = data;
+        seccion.innerHTML = data;
         ScrollSection();
     })
     .catch(error => console.log(error));
@@ -52,8 +50,7 @@ function Questions(){
     fetch('Questions.html')
     .then(response => response.text())
     .then(data => {
-        let container = document.getElementById('Section');
-        container.innerHTML = data;
+        seccion.innerHTML = data;
         ScrollSection();
     })
     .catch(error => console.log(error));

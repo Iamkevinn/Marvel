@@ -1,7 +1,3 @@
-*{
-    font-family: 'BentonSans Regular', sans-serif;
-    box-sizing: border-box;
-}
 .SectionPages{
     background: rgb(0,0,0);
     background: -moz-linear-gradient(138deg, rgba(0,0,0,0.4738270308123249) 99%, rgba(255,255,255,0) 100%);
@@ -13,8 +9,7 @@
 }
 .Titules{
     text-align: center;
-    letter-spacing: 20px;
-    padding: 70px 0;
+    padding: 70px;
     text-transform: uppercase;
     font-weight: bold;
 
@@ -25,14 +20,18 @@
 }
 
 .Titule{
-    font-size: 1.8em;
+    font-size: 1.9em;
+    border: 2px solid white;
+    padding: 3px 8px;
 }
-.Titule , .Section-Pag{
-    
+.Titule-Movie{
+    font-size: 1.6;
+}
+.Section-Pag{
     letter-spacing: 3px;
 }
 .Section-Pag{
-    font-family: 'Nunito', sans-serif;
+    font-size: 400;
 }
 .Gallery{
     border: 1px solid rgba(255, 68, 0, 0);
