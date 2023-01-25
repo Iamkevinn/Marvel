@@ -4,7 +4,7 @@ let scrollinYprev = window.pageYOffset;
 let scrollinYcurrent = window.pageXOffset;
 let navbar = document.querySelector('.Nav');
 //function for hide the nav while the user make scroll to bottom
-window.addEventListener('scroll',function(){
+/*window.addEventListener('scroll',function(){
     //Update the position of the scroll
     scrollinYcurrent = window.pageYOffset;
 
@@ -15,7 +15,7 @@ window.addEventListener('scroll',function(){
         navbar.classList.remove('Display');
     }
     scrollinYprev = scrollinYcurrent;
-})
+})*/
 
 //Function for load something after load the page
 window.addEventListener("DOMContentLoaded", function() {
