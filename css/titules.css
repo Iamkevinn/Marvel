@@ -74,16 +74,14 @@
     margin: 25px;
 }
 .Content{
-    line-height: 1.6em;
-    font-size: 3vh;
+    line-height: 1.3em;
+    font-size: 2.7vh;
     margin: 0 9% 45px;
     text-align: justify;
 }
-
-#DecorationC{
-    color: #3d89c7;
+#Note{
+    margin: 50px 0;
 }
-
 @media (max-width: 800px) {
     .Gallery {
         grid-column: 1;
