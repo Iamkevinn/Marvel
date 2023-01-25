@@ -18,63 +18,30 @@
     background-color: #00000033;
     border-radius: 20px;
     border: 1px solid rgba(255, 68, 0, 0);
-    display: grid;
+    padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-    padding-bottom: 50px;
 }
-
-#CapMarvel{
-    color: #c73a26;
-}
-#IronMan{
-    color: #be8a3f;
-}
-#Hulk{
-    color: #748456;
-}
-#Thor{
-    color: #79859f;
-}
-#IronMan3{
-    width: 150px;
-}
-#GuardiansOfGalaxy{
-    color: #2b00ff;
-}
-#IamGroot{
-    color: #af957a;
-}
-#Avengers{
-    color: #4400ff;
-}
-#AntMan{
-    color: gray;
-}
-#Spider-Man{
-    color: rgb(222, 18, 18);
-}
-#DoctorStrange{
-    color: #bbc8ff;
-}
-#BlackWidow{
-    color: black;
-}
-#BlackPanther{
-    color: rgb(5, 0, 37);
+.Movie{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 .Imagenes{
     width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 .Imgs{
     opacity: 1;
     /*margin: 100px 0 30px 0;*/
     padding: 15%;
     width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0);
 }
 .Imgs.OpacityImgs{
     opacity: 1;
