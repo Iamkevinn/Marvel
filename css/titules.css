@@ -37,12 +37,17 @@
     border: 1px solid rgba(0, 0, 0, 0);
 }
 .Imagenes{ 
-    width: 30%;
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0);
 }
 .Imgs{
     opacity: 1;
-    padding: 20%;
+    padding: 10%;
     width: 100%;
 }
 .Imgs.OpacityImgs{
@@ -55,7 +60,7 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 60%;
+    width: 65%;
     border: 1px solid rgba(0, 0, 0, 0);
 }
 .Titule-Movie{
@@ -63,11 +68,14 @@
     text-align: center;
     margin: 10% 9%;
     font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+
 }
 .Content{
     line-height: 1.6em;
     font-size: 1.3em;
     margin: 0 9% 45px;
+    text-align: justify;
 }
 
 img, h2, p, span{
