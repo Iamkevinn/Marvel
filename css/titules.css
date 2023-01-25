@@ -15,7 +15,7 @@
     padding: 8px;
 }
 .Gallery{
-    background-color: #00000033;
+    
     border-radius: 20px;
     border: 1px solid rgba(255, 68, 0, 0);
     padding-bottom: 50px;
@@ -26,6 +26,9 @@
     justify-content: center;
 }
 .Movie{
+    background-color: #00000033;
+    border-radius: 40px;
+    margin: 0 5px 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -33,14 +36,13 @@
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0);
 }
-.Imagenes{
-    width: 50%;
+.Imagenes{ 
+    width: 40%;
     border: 1px solid rgba(0, 0, 0, 0);
 }
 .Imgs{
     opacity: 1;
-    /*margin: 100px 0 30px 0;*/
-    padding: 15%;
+    padding: 20%;
     width: 100%;
 }
 .Imgs.OpacityImgs{
@@ -59,12 +61,12 @@
 .Titule-Movie{
     font-size: 2em;
     text-align: center;
-    margin: 0 20px;
+    margin: 15px;
     font-family: 'PT Sans', sans-serif;
 }
 .Content{
+    margin: 25px;
     line-height: 1.5em;
-    margin: 30px 20px 0;
     font-size: 1.2em;
 }
 
