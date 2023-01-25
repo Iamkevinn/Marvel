@@ -27,8 +27,8 @@
 }
 .Movie{
     background-color: #00000033;
-    border-radius: 40px;
-    margin: 0 5px 20px;
+    border-radius: 50px;
+    margin: 0 5px 30px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -37,7 +37,7 @@
     border: 1px solid rgba(0, 0, 0, 0);
 }
 .Imagenes{ 
-    width: 40%;
+    width: 30%;
     border: 1px solid rgba(0, 0, 0, 0);
 }
 .Imgs{
@@ -55,19 +55,19 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     border: 1px solid rgba(0, 0, 0, 0);
 }
 .Titule-Movie{
     font-size: 2em;
     text-align: center;
-    margin: 15px;
+    margin: 40px 15px;
     font-family: 'PT Sans', sans-serif;
 }
 .Content{
-    margin: 25px;
-    line-height: 1.5em;
-    font-size: 1.2em;
+    line-height: 1.6em;
+    font-size: 1.3em;
+    margin: 0 35px 45px;
 }
 
 img, h2, p, span{
