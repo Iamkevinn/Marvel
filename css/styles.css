@@ -35,12 +35,14 @@ body{
     opacity: 1;
     transition: opacity .5s ease-in;
 }
-
 .Nav{
     position: fixed ;
     bottom: 0;
     background-color: #151818;
     width: 100%;
+}
+.Nav.Display{
+    display: none;
 }
 .Nav ul{
     display: flex;
