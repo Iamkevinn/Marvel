@@ -4,7 +4,8 @@
 }
 body{
     font-family: 'PT Sans', sans-serif;
-    background-color: #d40317;
+    /*background-color: #e6030c;*/
+    background-color: #e50b14;
 }
 .Beginning{
     display: flex;
@@ -15,7 +16,7 @@ body{
     height: 100vh;
 }
 .Marvel-Logo{
-    width: 55%;
+    width: 45%;
     opacity: 0;
 }
 .Marvel-Logo.Opacity{
@@ -38,7 +39,7 @@ body{
 .Nav{
     position: fixed ;
     bottom: 0;
-    background-color: #191c1d;
+    background-color: #151818;
     width: 100%;
 }
 .Nav ul{

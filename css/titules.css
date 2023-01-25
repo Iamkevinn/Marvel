@@ -1,46 +1,32 @@
-.SectionPages{
-    background: #21212148;
-    border-radius: 15px;
-}
+
 .Titules{
     text-align: center;
-    padding: 25px;
+    padding: 35px 5px;
     text-transform: uppercase;
     font-weight: bold;
-
+    font-size: 1.65em;
 }
-.Titules, .Section-Pag{
-    color: transparent;
-    color: white;
+.Titules, .Gallery{
+    color: rgb(242, 236, 236);
 }
 
 .Titule{
-    font-size: 1.9em;
     border: 2px solid white;
-    padding: 3px 8px;
-}
-.Titule-Movie{
-    font-size: 1.6;
-}
-.Section-Pag{
-    letter-spacing: 3px;
-}
-.Section-Pag{
-    font-size: 400;
+    padding: 8px;
 }
 .Gallery{
+    background-color: #00000033;
+    border-radius: 20px;
     border: 1px solid rgba(255, 68, 0, 0);
+    display: grid;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-bottom: 65px;
+    padding-bottom: 50px;
 }
-#Cap{
-    width: 280px;
-    padding: 25px;
-}
+
 #CapMarvel{
     color: #c73a26;
 }
@@ -80,29 +66,57 @@
 #BlackPanther{
     color: rgb(5, 0, 37);
 }
+.Imagenes{
+    width: 50%;
+}
 .Imgs{
     opacity: 1;
+    /*margin: 100px 0 30px 0;*/
+    padding: 15%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
 .Imgs.OpacityImgs{
     opacity: 1;
     transition: opacity .5s linear;
 }
+.FedBack{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.Titule-Movie{
+    font-size: 2em;
+    text-align: center;
+    margin: 0 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+.Content{
+    line-height: 1.5em;
+    margin: 30px 20px 0;
+    font-size: 1.2em;
+}
 
 img, h2, p, span{
     border: 1px solid rgba(126, 252, 0, 0);
 }
-.Titule-Movie{
-    font-size: 26.5px;
-}
-.FedBack{
-    width: 65%;
-    margin: 0 3.5%;
-    line-height: 1.4;
-}
-.Content{
-    font-size: 18px;
-    text-align: justify;
-}
+
 #DecorationC{
     color: #3d89c7;
+}
+
+@media (max-width: 600px) {
+    .Gallery {
+        grid-column: 1;
+    }
+    .Imagenes {
+        width: 100%;
+    }
+    .FedBack {
+        width: 100%;
+    }
 }
