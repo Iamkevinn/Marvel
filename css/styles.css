@@ -5,7 +5,7 @@
 body{
     font-family: 'PT Sans', sans-serif;
     /*background-color: #e6030c;*/
-    background-color: #e50b14;
+    background-color: #ee171f;
 }
 .Beginning{
     display: flex;
@@ -16,12 +16,43 @@ body{
     height: 100vh;
 }
 .Marvel-Logo{
-    width: 45%;
+    width: 30%;
     opacity: 0;
 }
 .Marvel-Logo.Opacity{
     opacity: 1;
     transition: opacity 2s linear;
+    animation: mover-izquierda 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+.StudiosText{
+    width: 24.5%;
+    position: absolute;
+    opacity: 0;
+}
+.StudiosText.Opacity2{
+    opacity: 1;
+    transition: opacity 2.5s linear;
+    animation: mover-derecha 3s;
+    /*For the animation ends and no starts again*/
+    animation-fill-mode: forwards;
+}
+@keyframes mover-izquierda {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-38.5%);
+    }
+}
+@keyframes mover-derecha {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(16.5vw);
+    }
 }
 .Container-Nav{
     display: flex;

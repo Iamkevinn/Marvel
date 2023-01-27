@@ -18,9 +18,9 @@ let navbar = document.querySelector('.Nav');
 })*/
 
 //Function for load something after load the page
-window.addEventListener("DOMContentLoaded", function() {
+/*window.addEventListener("DOMContentLoaded", function() {
 
-});
+});*/
 
 //function for load something in any moment?
 window.addEventListener("load", function() {
@@ -30,8 +30,11 @@ window.addEventListener("load", function() {
 //Function for load something in a time predeterminate after load the page
 window.onload = function() {
     setTimeout(function(){
+        document.querySelector('.StudiosText').classList.add('Opacity2');
+    },2050);
+    setTimeout(function(){
         document.querySelector('.Container-Nav').classList.add('Opacity');
-    }, 2050);
+    }, 3050);
 };
 
 //Function for animation to select any boton of the nav
