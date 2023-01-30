@@ -21,7 +21,6 @@ let navbar = document.querySelector('.Nav');
 /*window.addEventListener("DOMContentLoaded", function() {
 
 });*/
-
 //function for load something in any moment?
 window.addEventListener("load", function() {
     document.querySelector('.Marvel-Logo').classList.add('Opacity');
